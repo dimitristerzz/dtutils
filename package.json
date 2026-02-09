@@ -12,11 +12,13 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "npm": "npm publish --access public --registry=https://registry.npmjs.org/",
-    "github": "npm publish --registry=https://npm.pkg.github.com",
-    "patch": "git add . && git commit -m 'Save work before version bump' && git push && npm version patch -m 'Release %s' && git push origin master --tags",
-    "minor": "git add . && git commit -m 'Save work before version bump' && npm version minor -m 'Release %s' && git push origin master --tags",
-    "major": "git add . && git commit -m 'Save work before version bump' && npm version major -m 'Release %s' && git push origin master --tags"
+    "publish": "npm publish",
+    "publish:npm": "npm run publish -- --access public",
+    "publish:github": "npm run publish -- --registry=https://npm.pkg.github.com",
+    "bump": "git add . && git commit -m 'Save work before version bump' && git push && npm version",
+    "bump:patch": "npm run bump -- patch",
+    "bump:minor": "npm run bump -- minor",
+    "bump:major": "npm run bump -- major"
   },
   "files": [
     "dist"
