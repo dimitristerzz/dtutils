@@ -1,7 +1,7 @@
 # `DTUtils`
 DTUtils is a collection of utility functions purely made for convinience.
 
-**Note:** This package uses ES modules. To use it in Node.js add `"type": "module"` to your project's package.json or use .mjs extenstions.
+**Note:** This package uses ES modules. To use it in Node.js add `"type": "module"` to your project's package.json or use .mjs extensions.
 
 ## Usage
 ```js
