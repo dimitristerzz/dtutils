@@ -41,4 +41,4 @@ jobs:
 
       # 6. Publish to npm using OIDC
       - name: Publish package
-        run: npm publish
+        run: npm publish --provenance
