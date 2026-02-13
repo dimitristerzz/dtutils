@@ -1,6 +1,6 @@
 {
   "name": "@dimitristerzz/dtutils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "DTUtils is a collection of utility functions purely made for convinience.",
   "exports": {
     ".": "./dist/index.js",
