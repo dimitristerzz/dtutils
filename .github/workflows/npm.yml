@@ -11,6 +11,7 @@ permissions:
 
 jobs:
   publish:
+    environment: npm
     runs-on: ubuntu-latest
 
     steps:
