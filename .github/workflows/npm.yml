@@ -8,6 +8,7 @@ on:
 permissions:
   contents: read
   id-token: write
+  packages: write
 
 jobs:
   publish:
@@ -18,12 +19,6 @@ jobs:
       # 1. Checkout the repo
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      - name: Debug npm config
-        run: |
-          npm config list -l
-          cat ~/.npmrc || true
-          cat .npmrc || true
 
       # 2. Install Bun
       - name: Install Bun
@@ -55,3 +50,7 @@ jobs:
       # 7. Publish to npm using OIDC
       - name: Publish package
         run: npm publish --provenance
+
+      # 8. Publish to GitHub Packages
+      - name: Publish to GitHub Packages
+        run: npm publish --registry=https://npm.pkg.github.com
