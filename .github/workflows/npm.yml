@@ -19,6 +19,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Debug npm config
+        run: |
+          npm config list -l
+          cat ~/.npmrc || true
+          cat .npmrc || true
+
       # 2. Install Bun
       - name: Install Bun
         run: |
