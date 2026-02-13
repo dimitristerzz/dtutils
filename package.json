@@ -46,8 +46,8 @@
     "gradient-string": "^3.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.2",
-    "@types/node": "^24.3.1"
+    "@types/node": "^24.3.1",
+    "typescript": "^5.9.2"
   },
   "funding": {
     "type": "individual",
