@@ -12,9 +12,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "publish": "npm publish",
-    "publish:npm": "npm run publish -- --access public",
-    "publish:github": "npm run publish -- --registry=https://npm.pkg.github.com",
+    ".publish": "npm publish",
+    ".publish:npm": "npm run publish -- --access public",
+    ".publish:github": "npm run publish -- --registry=https://npm.pkg.github.com",
     "bump": "git add . && git commit -m 'Save work before version bump' && git push && npm version",
     "bump:patch": "npm run bump -- patch",
     "bump:minor": "npm run bump -- minor",
