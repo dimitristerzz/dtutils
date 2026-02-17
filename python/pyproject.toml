@@ -1,0 +1,23 @@
+[project]
+name = "dtutils_dimitristerzz"
+version = "0.0.4"
+authors = [
+  { name="Dimitris Terzidis", email="dterzidis2008@gmail.com" },
+]
+description = "DTUtils is a collection of utility functions purely made for convinience."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/dimitristerzz/dtutils"
+Issues = "https://github.com/dimitristerzz/dtutils/issues"
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"

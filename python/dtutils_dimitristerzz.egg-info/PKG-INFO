@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: dtutils_dimitristerzz
+Version: 0.0.4
+Summary: DTUtils is a collection of utility functions purely made for convinience.
+Author-email: Dimitris Terzidis <dterzidis2008@gmail.com>
+License-Expression: MIT
+Project-URL: Homepage, https://github.com/dimitristerzz/dtutils
+Project-URL: Issues, https://github.com/dimitristerzz/dtutils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Dynamic: license-file
+
+# `DTUtils`
+DTUtils is a collection of utility functions purely made for convinience.
+
+**Note:** This package uses ES modules. To use it in Node.js add `"type": "module"` to your project's package.json or use .mjs extensions.
+
+## Usage
+```js
+import { formatColor } from "@dimitristerzz/dtutils";
+
+console.log(formatColor("#FFFFFF", "hsl"));
+console.log(formatColor("255,255,255", "hsl"));
+console.log(formatColor({ r: 255, g: 255, b: 255 }, "hex"));
+```
+
+## Utilities
+formatcolor, randomint

@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+dtutils/__init__.py
+dtutils/getInput.py
+dtutils_dimitristerzz.egg-info/PKG-INFO
+dtutils_dimitristerzz.egg-info/SOURCES.txt
+dtutils_dimitristerzz.egg-info/dependency_links.txt
+dtutils_dimitristerzz.egg-info/top_level.txt
