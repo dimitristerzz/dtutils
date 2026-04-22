@@ -5,6 +5,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  site: "https://dimitristerzz.github.io/dtutils/",
   server: {
     host: true,
     port: 8080

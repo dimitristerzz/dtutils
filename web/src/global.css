@@ -18,7 +18,6 @@
   --color-primary-6: oklch(0.626 0.1152 334.53);
   --color-background: oklch(0 0 0);
   --color-text: oklch(100 0 0);
-  --height-screen-dvh: 100svh;
   --font-text: "Byte Bounce", "sans-serif";
 }
 
