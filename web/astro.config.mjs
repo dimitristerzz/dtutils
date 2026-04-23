@@ -6,6 +6,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   site: 'https://dimitristerzz.github.io/dtutils/',
+  base: 'dtutils',
   server: {
     host: true,
     port: 8080
